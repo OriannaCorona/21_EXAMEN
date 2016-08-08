@@ -1,0 +1,55 @@
+/*seccion portafolio*/
+.fondoport{
+	background-color: #F2F2F2;
+}
+.portfolio{
+	font-weight: 700;
+	text-align: center;
+	margin: 2% 0% 2% 0%;
+	font-size: 200%;
+	font-family: helvetica;
+}
+.pportfolio{
+	font-size: 100%;
+	margin-bottom: 2%;
+	font-family: helvetica;
+}
+.botonmenpor{
+	padding: .8%;
+	background-color: #0FA8A8;
+	border: none;	
+}
+.botonmenpor2{
+	padding: .8%;
+	background-color: white;
+	border: none;
+}
+.menport{
+	text-align: center;
+	display: inline-block;
+}
+.fondoblanco{
+	background-color: white;
+	width: 76%;
+	height: 50%;
+	margin: 5% 0% 5% 14%;	
+}
+.imgport{
+	padding: 1.7%;
+	align: center;
+}
+.titport{
+	font-family: helvetica;
+	font-size: 150%;
+}
+.subtiport{
+	font-family: helvetica;
+	margin-bottom: 2%;
+}
+.botonload{
+	padding: 1.2%;
+	background-color: black;
+	border: none;
+	font-size: 100%;
+	margin: 0% 0% 1% 47%;
+}
