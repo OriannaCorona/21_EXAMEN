@@ -1,0 +1,49 @@
+*
+{
+	font-family: Helvetica;
+	font-size: 14px;
+}
+.icono
+{
+	width: 10%;
+	height: 10%;
+	position: relative;
+	left: 46%;
+	display: inline-block;
+}
+.size{
+	font-size: 12px;
+}
+.sizetitle{
+	font-size: 26px;
+}
+.imgfondo
+{
+	position: relative;
+	left: 19%;
+	width: 800px;
+	height: 300px;
+	
+}
+.gray
+{
+		background-color: 	#DCDCDC;
+}
+.fotomosaico2
+{
+	position: relative;
+	left: 80%;
+}
+.negrita
+{
+	font-weight: bold;
+
+}
+.iimgFondoPricing
+{
+	background-image: url("../img/laptop.png");
+	background-repeat: no-repeat;
+	width: 1100px;
+	height: 600px;
+	
+}
