@@ -1,15 +1,55 @@
+/*home*/
+.fondo{
+	background-image: url("../img/background/hero.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.99;
+	background-size: 100%;
+}
+.opac{
+	background-color: rgba(0, 0, 9, 0.5);
+	height: 600px;
+}
+.logoprimes{
+	margin:  5% 20%;
+}
+.estrella{
+	margin: 10% 0% 0% 0%;
+}
+.primes{
+	font-family: helvetica;
+	margin: 0% 0% 0% 1%; 
+	padding:  0% -30%;
+	font-size: 250%;
+	display: inline;
+}
+.menhome{
+	margin: 5% 0% 0% 50%;
+}
+.men1{
+	color: #0FA8A8;
+	padding: 2%;
+	display: inline-block;
+	font-family: helvetica;
+}
+.men{
+	display: inline-block;
+	font-family: helvetica;
+	padding: 2%;
+}
 /*seccion portafolio*/
 .fondoport{
 	background-color: #F2F2F2;
 }
-.portfolio{
+.portfolio, .contact{
 	font-weight: 700;
 	text-align: center;
-	margin: 2% 0% 2% 0%;
+	margin: 4% 0% 2% 0%;
 	font-size: 200%;
 	font-family: helvetica;
 }
-.pportfolio{
+.pportfolio, .pcontact{
 	font-size: 100%;
 	margin-bottom: 2%;
 	font-family: helvetica;
@@ -52,4 +92,75 @@
 	border: none;
 	font-size: 100%;
 	margin: 0% 0% 1% 47%;
+}
+/*seccion contact us*/
+.fondowork{
+	background-image: url("../img/background/contactus.jpg");
+	height: 546px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	opacity: 0.9;
+	filter: blur(50px);
+}
+.opac2{
+	background-color: rgba(0, 0, 9, 0.5);
+}
+.send{
+	margin: 2% 0% 5% 8%;
+	font-size: 120%;
+	font-family: helvetica;
+}
+/*seccion formulario*/
+.mail, .subject, .mensaje{	
+	display: block;
+	width: 450px;
+	font-size: 100%;
+	margin: 2% 0% 0% 8%;
+	padding: 2% 0% 2% 2%;
+	background-color: black;
+	opacity: 0.3;
+	border: none;
+}
+.mensaje{
+	padding: 2% 0% 15% 2%;	
+}
+.butsubnit{
+	padding: 1.8% 4%;
+	background-color: #0FA8A8;
+	border: none;
+	margin: 2% 0% 0% 8%;
+	font-size: 100%;
+}
+/*seccion about us*/
+.pabout{
+	font-size: 100%;
+	margin: 0% 0% 5% 8%;
+	font-family: helvetica;
+}
+.phone{
+	background-image: url("../iconos/phone-receiver.png");
+	background-repeat: no-repeat;
+	font-family: helvetica;
+	margin: 0% 0% 2% 8%; 
+	padding:  0% 5%;
+}
+.adress{
+	font-family: helvetica;
+	background-image: url("../iconos/placeholder.png");
+	background-repeat: no-repeat;
+	margin: 0% 0% 2% 8%; 
+	padding:  0% 5%;
+}
+/*seccion follow us*/
+.redes{
+	margin: 3% 0.7%;
+}
+/*footer*/
+footer{
+	height: 50%;
+	background-color: #3F4142;
+	padding: 2%;
+	font-family: helvetica;
+	font-size: 70%;
 }
